@@ -1,0 +1,46 @@
+.header {
+	color: #43b808;
+}
+
+.logo {
+	padding: 5px 0;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Arial', sans-serif;
+	text-decoration: none;
+}
+
+a {
+	color: #43b808;
+}
+
+span {
+	color: #000;
+}
+
+.layout-row.lang-links {
+	align-items: top;
+	margin: 5px;
+}
+
+.nav-menu {
+	margin: 3px 0;
+	padding: 5px 0;
+}
+.nav-link {
+	margin-right: 3px;
+	padding: 5px;
+	text-decoration: none;
+	color: #000;
+}
+
+.nav-link:hover,
+.nav-link.active:hover {
+	color: #43b808;
+	background-color: #ccc;
+}
+
+.nav-link.active {
+	color: #fff;
+	background-color: #43b808;
+}

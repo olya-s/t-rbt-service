@@ -1,0 +1,38 @@
+.auth-form {
+	width: 50%;
+	height: 150px;
+	padding-left: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.input-field, .button-block {
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px 0;
+}
+
+.input-field {
+	justify-content: space-between;
+}
+
+.input-field label {
+	min-width: 85px;
+}
+
+.button-block {
+	justify-content: flex-start;
+}
+
+.button-block button {
+	margin-right: 30px;
+	padding: 5px 30px;
+	border-radius: 5px;
+}
+
+.error {
+	color: red;
+}

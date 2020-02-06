@@ -1,0 +1,30 @@
+.footer {
+	margin-bottom: 20px;
+	color: #fff;
+	font-family: 'Arial', sans-serif;
+	font-weight: 100;
+}
+
+.layout-footer {
+	padding: 25px;
+	text-align: left;
+	background-color: #797D7F;
+}
+
+.layout-row.heading {
+	justify-content: flex-start;
+}
+
+.download-app {
+	padding-top: 0;	
+	text-align: center;
+}
+
+.download-app a {
+	color: #fff;
+}
+
+.footer-copyright {
+	color: #000;
+	text-align: left;
+}

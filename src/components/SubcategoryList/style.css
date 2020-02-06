@@ -1,0 +1,19 @@
+.subcategory-list {
+	padding: 5px;
+}
+
+.subcategory-item {
+	border: 2px solid #b3b3b3;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 2px 0;
+}
+
+.subcategory-item:hover {
+	background-color: #e6eaed;
+}
+
+.subcategory-item.active {
+	background-color: #999;
+	color: #fff;
+}

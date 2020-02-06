@@ -1,0 +1,19 @@
+.category-list {
+	padding: 5px;
+}
+
+.genres-item {
+	border: 2px solid #43b808;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 2px 0;
+}
+
+.genres-item:hover {
+	background-color: #e6eaed;
+}
+
+.genres-item.active {
+	background-color: #43b808;
+	color: #fff;
+}

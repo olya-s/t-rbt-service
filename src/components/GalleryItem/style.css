@@ -1,0 +1,44 @@
+.gallery-item {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #999;
+	border-radius: 10px;
+}
+
+.small {
+	font-size: 0.6em;
+}
+
+.gallery-item-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.gallery-item-footer {
+	padding-top: 10px;
+}
+
+.btn {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+	border: 1px solid #999;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.btn:last-child {
+	margin-right: 0;
+}
+
+.btn:hover {
+	opacity: 0.6;
+	box-shadow: 1px 1px 2px 2px;
+}
+
+.fa {
+	transform: translateY(50%);
+}

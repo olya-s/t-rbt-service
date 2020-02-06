@@ -1,0 +1,49 @@
+.search-panel {
+	padding: 20px;
+	color: #fff;
+	background-color: #43b808;
+	flex-wrap: wrap;
+}
+
+.search-panel p {
+	font-size: 1.3em;
+}
+
+.heading {
+	padding-bottom: 10px;
+	padding-right: 20px;
+}
+
+.logo-image {
+	width: 30px;
+	height: 30px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.search {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: nowrap;
+	background: #fff;
+}
+
+#search {
+	padding: 5px;
+}
+
+.invalid {
+	border-color: red;
+}
+
+.btn-search {
+	margin: 0;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.icon {
+	transform: translateY(10%);
+}
