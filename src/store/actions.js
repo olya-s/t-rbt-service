@@ -133,9 +133,8 @@ const purchase = (subsIdent, passw, contentNo) => {
 
 const searchContent = (title) => {
   return dispatch => {
-    console.log(title);
     searchContentItem(title)
-    .then(response => {console.log(response);
+    .then(response => {
       const search = {
         title: title,
         content: response.data.searchResult.element
