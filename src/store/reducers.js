@@ -1,4 +1,5 @@
 import { GET_ALL_CATEGORIES, GET_ALL_CONTENT, GET_CONTENT, LOGIN, LOGOUT, PURCHASE, ERROR, RESET, SEARCH, PATH } from './actions';
+// import { combineReducers } from 'redux';
 
 const initialLogin = localStorage.login && JSON.parse(localStorage.login);
 const initialPassw = localStorage.passw && JSON.parse(localStorage.passw);
@@ -16,7 +17,7 @@ export const reducer = (state = initialState, action) => {
 					'category': categories[i],
 					'subCategories': allCategories.filter(elem => elem.parentCatId === categories[i].contentCatId)
 				}
-			};
+			}
 			return {
 				...state,
 				allCategories,

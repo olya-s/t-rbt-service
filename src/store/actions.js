@@ -94,7 +94,7 @@ const authorize = (tel, passw) => {
         }
       })
     )
-    .catch(err =>
+    .catch(() =>
       dispatch({
         type: ERROR,
         payload: "Wrong user or password"
@@ -116,13 +116,13 @@ const resetMesForm = () => ({
 const purchase = (subsIdent, passw, contentNo) => {
   return dispatch => {
     purchaseMelody(subsIdent, passw, contentNo)
-    .then(response => 
+    .then(() => 
       dispatch({
         type: PURCHASE,
         payload: "Congrads! You make a purchase"
       })
     )
-    .catch(err => 
+    .catch(() => 
       dispatch({
         type: PURCHASE,
         payload: "Sorry, you cannot make a purchase"
@@ -145,7 +145,7 @@ const searchContent = (title) => {
         payload: search
       })
     })
-    .catch(error =>
+    .catch(() =>
       dispatch({
         type: ERROR,
         payload: "No search result"

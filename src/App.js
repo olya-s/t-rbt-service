@@ -48,6 +48,4 @@ function App() {
   );
 }
 
-store.subscribe(() => console.log("store", !!auth(), store.getState()));
-
 export default App;
